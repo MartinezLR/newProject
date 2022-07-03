@@ -1,0 +1,21 @@
+section#promocoes {
+    height: 280px;
+}
+
+section#promocoes div.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+
+    padding: 0 1rem;
+}
+
+section#promocoes div.titulo h2 {
+    color: rgb(86, 84, 84);
+}
+
+section#promocoes div.titulo a {
+    color: var(--first-color);
+}

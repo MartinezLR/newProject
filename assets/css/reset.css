@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Provisorio */
+main {
+    margin-top: var(--header);
+
+    padding: 0 1rem;
+}
+
+/* buttons - inputs */
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+/* button.button {} */
+
+button.button i {
+    font-size: 30px;
+}
+
+
+input {
+    outline: none !important;
+}
+
+/* Positions Flex */
+
+.start-y {
+    display: flex;
+
+    align-items: start;
+}
+
+.start-x {
+    display: flex;
+    justify-content: start;
+}
+
+.start-x-y {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.center-y {
+    display: flex;
+    align-items: center;
+}
+
+.center-x {
+    display: flex;
+    justify-content: center;
+}
+
+.center-x-y {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-y {
+    display: flex;
+    align-items: end;
+}
+
+.end-x {
+    display: flex;
+    justify-content: end;
+}
+
+.end-x-y {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}

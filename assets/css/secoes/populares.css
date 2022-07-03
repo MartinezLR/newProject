@@ -1,0 +1,21 @@
+section#popular {
+    height: 280px;
+}
+
+section#popular div.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+
+    padding: 0 1rem;
+}
+
+section#popular div.titulo h2 {
+    color: rgb(86, 84, 84);
+}
+
+section#popular div.titulo a {
+    color: var(--first-color);
+}

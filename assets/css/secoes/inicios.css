@@ -1,0 +1,46 @@
+/* Inicio */
+section#inicio {
+    height: 170px;
+
+    box-shadow: var(--shadow);
+
+    border-radius: 1rem;
+
+    /*background-color: var(--first-color);*/
+    background: var(--first-color);
+}
+
+section#inicio div.titulo {
+    padding: 1.2rem 2rem;
+
+    width: auto;
+}
+
+section#inicio div.titulo h1 {
+    font-size: 2.5rem;
+
+    height: 48px;
+
+    color: var(--color-mode);
+}
+
+section#inicio div.titulo span {
+    font-size: 1rem;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+section#inicio div.link {
+    padding: 0 2rem;
+}
+
+section#inicio div.link button {
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+
+    font-weight: 700;
+
+    color: var(--first-color);
+
+    background-color: rgb(255, 255, 255);
+}

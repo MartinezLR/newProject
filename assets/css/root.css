@@ -1,0 +1,16 @@
+:root {
+    /* Colors */
+    /* --first-color: #F9C3C3; */
+
+    /* --first-color: #ee6e3f; */
+
+    --first-color: linear-gradient(to top left, #2FB4FB, #FE78CF);
+
+    --color-mode: #fff;
+    --shadow: 0px 10px 36px 0px rgba(0, 0, 0, 0.05);
+
+    /* Sizes */
+
+    --header: 55px;
+    --footer: 70px;
+}

@@ -1,0 +1,162 @@
+/* ------------  Navegação header  ------------*/
+
+header#header nav.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+
+    height: var(--header);
+    width: 100%;
+
+    z-index: 1000;
+
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+nav.navegacao button {
+    padding: 0 1rem;
+}
+
+button.button.menu {
+    margin-left: 10px;
+
+    color: var(--first-color);
+    background: -webkit-linear-gradient(#9c47fc, #356ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button.button.menu span {
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+nav.navegacao div {
+    display: flex;
+    align-items: center;
+}
+
+nav.navegacao div span {
+    font-weight: 500;
+    font-size: 1rem;
+
+    padding-right: 0.5rem;
+
+    color: var(--first-color);
+    background: -webkit-linear-gradient(#9c47fc, #356ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    opacity: 0.8;
+}
+
+nav.navegacao div i {
+    font-weight: 500;
+    font-size: 1.8rem;
+
+    padding-right: 1rem;
+
+    background: -webkit-linear-gradient(#9c47fc, #356ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: var(--first-color); */
+}
+
+/* ------------  Navegação Footer  ------------*/
+
+nav.navegacao-footer {
+    display: flex;
+    justify-content: space-around;
+
+    position: fixed;
+    bottom: 0;
+
+    height: var(--footer);
+    width: 100%;
+
+    box-shadow: var(--shadow);
+
+    background-color: var(--color-mode);
+}
+
+nav.navegacao-footer button {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 20%;
+}
+
+nav.navegacao-footer button i {
+    font-size: 1.3rem;
+    margin-bottom: 2px;
+
+    color: var(--first-color);
+
+    background: -webkit-linear-gradient(#9c47fc, #356ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav.navegacao-footer button span {
+    font-size: 0.78rem;
+
+    color: #ddd;
+}
+
+nav.navegacao-footer button.main {
+    position: relative;
+
+    bottom: 50%;
+    width: 16.5%;
+
+    border-radius: 100%;
+    box-shadow: var(--shadow);
+
+    background-color: #f6f5f5;
+}
+
+nav.navegacao-footer button.main i {
+    padding: 1rem;
+
+    font-size: 1.8rem;
+
+    border-radius: 100%;
+
+    -webkit-text-fill-color: var(--color-mode);
+
+    /*background-color: var(--first-color);*/
+    background: var(--first-color);
+}
+
+
+/* ------------  Pesquisar  ------------*/
+section#pesquisar {
+    display: flex;
+    align-items: center;
+
+    height: 100px;
+}
+
+input.pesquisa {
+    width: 100%;
+    height: 50px;
+
+    font-size: 1rem;
+
+    box-shadow: var(--shadow);
+
+    padding: 0 1rem;
+
+    border: none;
+    border-radius: 1rem;
+
+    color: rgb(103, 95, 95) !important;
+}
+
+input.pesquisa::placeholder {
+    color: #ddd;
+}

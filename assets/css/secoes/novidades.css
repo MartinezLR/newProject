@@ -1,0 +1,88 @@
+section#novidades {
+    height: 280px;
+}
+
+section#novidades div.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+
+    padding: 0 1rem;
+}
+
+section#novidades div.titulo h2 {
+    color: rgb(86, 84, 84);
+}
+
+section#novidades div.titulo a {
+    color: var(--first-color);
+
+    background: -webkit-linear-gradient(#9c47fc, #356ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section#novidades div.items {
+    display: flex;
+
+    height: calc(280px - 80px);
+    /* width: 1000px; */
+
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+section#novidades div.items div.card {
+    /* display: inline-block; */
+    display: flex;
+    align-items: end;
+
+    height: 180px;
+    width: 170px !important;
+
+    margin: 0 9px;
+    border-radius: 1rem;
+
+    /*background-color: var(--first-color);*/
+    background: var(--first-color);
+}
+
+section#novidades div.items div.card div.info {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+    width: 100%;
+}
+
+section#novidades div.items div.card span {
+    width: 100%;
+    color: var(--color-mode);
+}
+
+section#novidades div.items div.card span.titulo {
+    height: 1.3rem;
+
+    font-size: 1.2rem;
+    color: var(--color-mode);
+}
+
+section#novidades div.items div.card p {
+    font-size: 0.7rem;
+    color: var(--color-mode);
+
+    opacity: 0.7;
+}
+
+section#novidades div.items div.card span.valor {
+    display: flex;
+
+    font-weight: 900;
+
+    margin-top: 5px;
+
+    font-size: 0.9rem;
+    color: var(--color-mode);
+}
